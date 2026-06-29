@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!-- saved from url=(0347)https://static.coze.site/7631021360634069286-data_volume/files/%E6%89%80%E6%9C%89%E5%AF%B9%E8%AF%9D/%E4%B8%BB%E5%AF%B9%E8%AF%9D/%E7%94%A8%E6%88%B7%E4%B8%8A%E4%BC%A0/%E6%B5%81%E9%87%8F%E8%AE%A1%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86%E8%A1%A8_form/index.html?sign=1785205912-55d447345a-0-7d8c5b4f4c8654de7a7da01bacc419bcb41bd43a4145ef30e157d37defc7e30a -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>流量计需求收集表</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f5f5;color:#333;min-height:100vh;padding:12px}
+.header{text-align:center;padding:20px 0 14px;margin-bottom:12px;background:linear-gradient(135deg,#C41E3A,#8B0000);border-radius:12px;color:#fff}
+.header h1{font-size:19px;margin-bottom:4px}
+.header p{font-size:12px;opacity:.8}
+.card{background:#fff;border-radius:10px;padding:14px;margin-bottom:10px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.stitle{font-size:14px;font-weight:600;color:#C41E3A;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #fde8ec}
+.fr{margin-bottom:12px}
+.fl{font-size:13px;color:#555;margin-bottom:5px;font-weight:500}
+.fi{width:100%;padding:9px 11px;border:1.5px solid #ddd;border-radius:8px;font-size:14px;outline:none;transition:border-color .2s;background:#fafafa}
+.fi:focus{border-color:#C41E3A;background:#fff}
+.cg{display:flex;flex-wrap:wrap;gap:7px}
+.ci{display:flex;align-items:center;gap:5px;padding:5px 10px;border:1.5px solid #ddd;border-radius:18px;font-size:13px;cursor:pointer;transition:all .2s;user-select:none;background:#fafafa}
+.ci input{display:none}
+.ci.ck{background:#fde8ec;border-color:#C41E3A;color:#C41E3A;font-weight:600}
+.ci .d{width:15px;height:15px;border:2px solid #ccc;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s}
+.ci.ck .d{background:#C41E3A;border-color:#C41E3A}
+.ci.ck .d::after{content:'';width:5px;height:5px;background:#fff;border-radius:50%}
+.rg{display:flex;flex-direction:column;gap:7px}
+.ri{display:flex;align-items:center;gap:7px;padding:7px 10px;border:1.5px solid #ddd;border-radius:8px;font-size:13px;cursor:pointer;transition:all .2s;background:#fafafa;flex-wrap:wrap}
+.ri input{display:none}
+.ri.ck{background:#fde8ec;border-color:#C41E3A;color:#C41E3A;font-weight:600}
+.ri .d{width:15px;height:15px;border:2px solid #ccc;border-radius:50%;flex-shrink:0;transition:all .2s}
+.ri.ck .d{border-color:#C41E3A}
+.ri.ck .d::after{content:'';display:block;width:7px;height:7px;background:#C41E3A;border-radius:50%;margin:2px}
+.pi{display:none;padding:5px 8px;border:1.5px solid #ddd;border-radius:6px;font-size:12px;outline:none;width:110px;margin-left:4px;background:#fafafa}
+.pi:focus{border-color:#C41E3A;background:#fff}
+.ri.ck .pi{display:inline-block;border-color:#C41E3A}
+.sr{display:flex;gap:6px;align-items:center;margin-top:5px}
+.sl{font-size:12px;color:#888;white-space:nowrap}
+.si{flex:1;padding:7px 9px;border:1.5px solid #ddd;border-radius:6px;font-size:13px;outline:none;background:#fafafa}
+.si:focus{border-color:#C41E3A;background:#fff}
+.ps{display:none}
+.ps.on{display:block}
+.ir{display:flex;gap:6px;flex-wrap:wrap}
+.ir .si{flex:0 0 calc(50% - 3px);min-width:0}
+.ir .sr{flex:1;min-width:120px}
+.btn{width:100%;padding:13px;background:linear-gradient(135deg,#C41E3A,#8B0000);color:#fff;border:none;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;margin-top:6px;letter-spacing:2px}
+.btn:active{opacity:.85}
+.tips{background:#fff8e6;border:1px solid #ffe58f;border-radius:8px;padding:10px;margin-top:14px;font-size:11px;color:#7c6a2f;line-height:1.7}
+.tips strong{color:#d48806}
+.hd{display:none!important}
+.rcard{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.1);margin-bottom:10px}
+#simg{width:100%;display:block}
+.dbtn{display:block;width:100%;padding:13px;background:linear-gradient(135deg,#52c41a,#389e0d);color:#fff;border:none;font-size:14px;font-weight:600;cursor:pointer;text-align:center;text-decoration:none;letter-spacing:1px}
+.smsg{text-align:center;padding:20px;font-size:15px;color:#52c41a;font-weight:600}
+.r3{display:flex;gap:4px;flex-wrap:wrap}
+.r3 .si{flex:1;min-width:80px}
+</style>
+</head>
+<body>
+<div id="fa">
+<div class="header"><h1>流量计需求收集表</h1><p>请逐项填写，提交后自动生成汇总图片</p></div>
+<form id="fm">
+
+<!-- 基本信息 -->
+<div class="card">
+<div class="stitle">基本信息</div>
+<div class="fr"><div class="fl">公司名称</div><input class="fi" name="company" placeholder="请输入公司名称" autocomplete="off"></div>
+<div class="fr"><div class="fl">姓名</div><input class="fi" name="name" placeholder="请输入姓名" autocomplete="off"></div>
+<div class="fr"><div class="fl">联系方式</div><input class="fi" name="contact" placeholder="请输入手机号/电话" autocomplete="off"></div>
+</div>
+
+<!-- 介质信息 -->
+<div class="card">
+<div class="stitle">介质信息</div>
+<div class="fr"><div class="fl">介质名称</div><input class="fi" name="mname" placeholder="请输入介质名称" autocomplete="off"></div>
+<div class="fr"><div class="fl">介质组成（浓度）</div><input class="fi" name="mconc" placeholder="请输入介质组成及浓度" autocomplete="off"></div>
+<div class="fr"><div class="fl">是否符合（可多选）</div>
+<div class="cg">
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="mtrait" value="腐蚀性" hidden=""><span class="d"></span>腐蚀性</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="mtrait" value="含颗粒" hidden=""><span class="d"></span>含颗粒</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="mtrait" value="易结晶" hidden=""><span class="d"></span>易结晶</label>
+</div></div>
+</div>
+
+<!-- 工况参数 -->
+<div class="card">
+<div class="stitle">工况参数</div>
+<div class="fr"><div class="fl">公称口径</div>
+<div class="sr"><span class="sl">DN</span><input class="si" name="dn" placeholder="如：100" autocomplete="off"></div></div>
+<div class="fr"><div class="fl">环境温度（℃）</div><input class="fi" name="envtemp" placeholder="请输入环境温度" autocomplete="off"></div>
+<div class="fr"><div class="fl">介质温度（℃）</div><input class="fi" name="medtemp" placeholder="请输入介质温度" autocomplete="off"></div>
+<div class="fr"><div class="fl">公称压力（MPa）</div><input class="fi" name="pressure" placeholder="请输入公称压力" autocomplete="off"></div>
+</div>
+
+<!-- 流速与流量范围 -->
+<div class="card">
+<div class="stitle">流速与流量范围</div>
+<div class="fr"><div class="fl">流速范围（m/s）</div>
+<div class="r3">
+<div><span class="sl">最小</span><input class="si" name="vmin" placeholder="最小" autocomplete="off"></div>
+<div><span class="sl">常用</span><input class="si" name="vnorm" placeholder="常用" autocomplete="off"></div>
+<div><span class="sl">最大</span><input class="si" name="vmax" placeholder="最大" autocomplete="off"></div>
+</div></div>
+<div class="fr"><div class="fl">流量范围（m³/h）</div>
+<div class="r3">
+<div><span class="sl">最小</span><input class="si" name="fmin" placeholder="最小" autocomplete="off"></div>
+<div><span class="sl">常用</span><input class="si" name="fnorm" placeholder="常用" autocomplete="off"></div>
+<div><span class="sl">最大</span><input class="si" name="fmax" placeholder="最大" autocomplete="off"></div>
+</div></div>
+</div>
+
+<!-- 安装条件 -->
+<div class="card">
+<div class="stitle">安装条件</div>
+<div class="fr"><div class="fl">安装位置</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="install" value="水平管道" hidden=""><span class="d"></span>水平管道</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="install" value="垂直管道（流量向上）" hidden=""><span class="d"></span>垂直管道（流量向上）</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="install" value="垂直管道（流量向下）" hidden=""><span class="d"></span>垂直管道（流量向下）</label>
+</div></div>
+<div class="fr"><div class="fl">直管段长度</div>
+<div class="r3">
+<div><span class="sl">前</span><input class="si" name="pipe_front" placeholder="___D" autocomplete="off"></div>
+<div><span class="sl">后</span><input class="si" name="pipe_back" placeholder="___D" autocomplete="off"></div>
+</div></div>
+<div class="fr"><div class="fl">是否满管</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="fullpipe" value="是" hidden=""><span class="d"></span>是</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="fullpipe" value="否" hidden=""><span class="d"></span>否（仅适用于非满管场景）</label>
+</div></div>
+<div class="fr"><div class="fl">防爆要求</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="explosion" value="无" hidden=""><span class="d"></span>无</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="explosion" value="Ex d IIC T6" hidden=""><span class="d"></span>Ex d IIC T6</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="explosion" value="其他" hidden=""><span class="d"></span>其他<input class="pi" name="explosion_v" placeholder="请填写" onclick="event.stopPropagation()" autocomplete="off"></label>
+</div></div>
+<div class="fr"><div class="fl">防护等级</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="IP40" hidden=""><span class="d"></span>IP40</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="IP52" hidden=""><span class="d"></span>IP52</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="IP65" hidden=""><span class="d"></span>IP65</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="IP67" hidden=""><span class="d"></span>IP67</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="IP68" hidden=""><span class="d"></span>IP68</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="其他" hidden=""><span class="d"></span>其他<input class="pi" name="ip_v" placeholder="请填写" onclick="event.stopPropagation()" autocomplete="off"></label>
+</div></div>
+</div>
+
+<!-- 流量计类型选择 -->
+<div class="card">
+<div class="stitle">所需流量计类型（可多选）</div>
+<div class="fl" style="margin-bottom:6px">选中后自动展开对应详细规格</div>
+<div class="cg">
+<label class="ci" onclick="tp(this,&#39;em&#39;)"><input type="checkbox" name="ftype" value="电磁流量计" hidden=""><span class="d"></span>电磁流量计</label>
+<label class="ci" onclick="tp(this,&#39;vs&#39;)"><input type="checkbox" name="ftype" value="涡街流量计" hidden=""><span class="d"></span>涡街流量计</label>
+<label class="ci" onclick="tp(this,&#39;tb&#39;)"><input type="checkbox" name="ftype" value="涡轮流量计" hidden=""><span class="d"></span>涡轮流量计</label>
+<label class="ci" onclick="tp(this,&#39;cm&#39;)"><input type="checkbox" name="ftype" value="质量流量计" hidden=""><span class="d"></span>质量流量计</label>
+<label class="ci" onclick="tp(this,&#39;us&#39;)"><input type="checkbox" name="ftype" value="超声波流量计" hidden=""><span class="d"></span>超声波流量计</label>
+<label class="ci" onclick="tp(this,&#39;rc&#39;)"><input type="checkbox" name="ftype" value="不清楚请帮忙推荐" hidden=""><span class="d"></span>不清楚请帮忙推荐</label>
+</div>
+</div>
+
+<!-- 电磁流量计详细规格 -->
+<div class="card ps" id="s-em">
+<div class="stitle">电磁流量计 详细规格</div>
+<div class="fr"><div class="fl">介质电导率</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_cond" value="≥5μs/cm" hidden=""><span class="d"></span>≥5μs/cm</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_cond" value="≥10μs/cm" hidden=""><span class="d"></span>≥10μs/cm</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_cond" value="≥20μs/cm" hidden=""><span class="d"></span>≥20μs/cm</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_cond" value="≥30μs/cm" hidden=""><span class="d"></span>≥30μs/cm</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_cond" value="≥50μs/cm" hidden=""><span class="d"></span>≥50μs/cm</label>
+</div></div>
+<div class="fr"><div class="fl">过程连接材质及本体材质</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_mat" value="碳钢CS" hidden=""><span class="d"></span>碳钢CS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_mat" value="304SS" hidden=""><span class="d"></span>304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_mat" value="其他" hidden=""><span class="d"></span>其他<input class="pi" name="em_mat_v" placeholder="请填写" onclick="event.stopPropagation()" autocomplete="off"></label>
+</div></div>
+<div class="fr"><div class="fl">衬里材料（可多选）</div>
+<div class="cg">
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="em_liner" value="聚四氟乙烯PTFE" hidden=""><span class="d"></span>PTFE</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="em_liner" value="氯丁橡胶CR" hidden=""><span class="d"></span>氯丁橡胶CR</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="em_liner" value="聚氨酯PU" hidden=""><span class="d"></span>聚氨酯PU</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="em_liner" value="聚全氟乙丙烯F46" hidden=""><span class="d"></span>F46</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="em_liner" value="聚氨酯橡胶" hidden=""><span class="d"></span>聚氨酯橡胶</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="em_liner" value="特氟龙PFA" hidden=""><span class="d"></span>特氟龙PFA</label>
+</div></div>
+<div class="fr"><div class="fl">电极材料</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_elec" value="316L" hidden=""><span class="d"></span>316L</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_elec" value="哈氏合金B" hidden=""><span class="d"></span>哈氏合金B</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_elec" value="哈氏合金C" hidden=""><span class="d"></span>哈氏合金C</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_elec" value="钛" hidden=""><span class="d"></span>钛</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_elec" value="钽" hidden=""><span class="d"></span>钽</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="em_elec" value="铂铱合金" hidden=""><span class="d"></span>铂铱合金</label>
+</div></div>
+</div>
+
+<!-- 涡街流量计详细规格 -->
+<div class="card ps" id="s-vs">
+<div class="stitle">涡街流量计 详细规格</div>
+<div class="fr"><div class="fl">介质</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_med" value="气体" hidden=""><span class="d"></span>气体</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_med" value="液体" hidden=""><span class="d"></span>液体</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_med" value="蒸汽" hidden=""><span class="d"></span>蒸汽</label>
+</div></div>
+<div class="fr"><div class="fl">过程连接及本体材质</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="U1：碳钢夹持法兰，304SS" hidden=""><span class="d"></span>U1：碳钢夹持法兰，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="U2：304SS夹持法兰，304SS" hidden=""><span class="d"></span>U2：304SS夹持法兰，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="GB：GB/T9124法兰连接，304SS" hidden=""><span class="d"></span>GB：GB/T9124法兰连接，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="IC：ANSI B16.5 Class 150，304SS" hidden=""><span class="d"></span>IC：ANSI B16.5 Class 150，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="ID：ANSI B16.5 Class 300，304SS" hidden=""><span class="d"></span>ID：ANSI B16.5 Class 300，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="IF：JIS B2220 法兰10K，304SS" hidden=""><span class="d"></span>IF：JIS B2220 法兰10K，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="IG：JIS B2220 法兰20K，304SS" hidden=""><span class="d"></span>IG：JIS B2220 法兰20K，304SS</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_conn" value="其他" hidden=""><span class="d"></span>其他<input class="pi" name="vs_conn_v" placeholder="请填写" onclick="event.stopPropagation()" autocomplete="off"></label>
+</div></div>
+<div class="fr"><div class="fl">补偿方式</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_comp" value="标准结构无补偿" hidden=""><span class="d"></span>标准结构无补偿</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_comp" value="温压补偿" hidden=""><span class="d"></span>温压补偿</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_comp" value="温度补偿" hidden=""><span class="d"></span>温度补偿</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="vs_comp" value="压力补偿" hidden=""><span class="d"></span>压力补偿</label>
+</div></div>
+</div>
+
+<!-- 涡轮流量计详细规格 -->
+<div class="card ps" id="s-tb">
+<div class="stitle">涡轮流量计 详细规格</div>
+<div class="fr"><div class="fl">介质粘度</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="tb_visc" value="＜5×10⁻⁶m²/s（需实液标定）" hidden=""><span class="d"></span>＜5×10⁻⁶m²/s（大于此值需实液标定后使用）</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="tb_visc" value="≤68cst" hidden=""><span class="d"></span>≤68cst</label>
+</div></div>
+<div class="fr"><div class="fl">过程连接方式</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="tb_conn" value="螺纹连接" hidden=""><span class="d"></span>螺纹连接</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="tb_conn" value="法兰连接" hidden=""><span class="d"></span>法兰连接</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="tb_conn" value="卡箍连接" hidden=""><span class="d"></span>卡箍连接</label>
+</div></div>
+</div>
+
+<!-- 质量流量计详细规格 -->
+<div class="card ps" id="s-cm">
+<div class="stitle">质量流量计 详细规格</div>
+<div class="fr"><div class="fl">类型</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="cm_type" value="气体质量流量" hidden=""><span class="d"></span>气体质量流量</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="cm_type" value="科里奥利质量流量" hidden=""><span class="d"></span>科里奥利质量流量</label>
+</div></div>
+<div class="fr"><div class="fl">测量变量（可多选）</div>
+<div class="cg">
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="cm_var" value="质量流量" hidden=""><span class="d"></span>质量流量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="cm_var" value="密度" hidden=""><span class="d"></span>密度</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="cm_var" value="温度" hidden=""><span class="d"></span>温度</label>
+</div></div>
+</div>
+
+<!-- 超声波流量计详细规格 -->
+<div class="card ps" id="s-us">
+<div class="stitle">超声波流量计 详细规格</div>
+<div class="fr"><div class="fl">传感器类型</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="us_sensor" value="外夹式" hidden=""><span class="d"></span>外夹式</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="us_sensor" value="支架式" hidden=""><span class="d"></span>支架式</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="us_sensor" value="插入式" hidden=""><span class="d"></span>插入式</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="us_sensor" value="管段式" hidden=""><span class="d"></span>管段式</label>
+</div></div>
+</div>
+
+<!-- 不清楚请帮忙推荐 -->
+<div class="card ps" id="s-rc">
+<div class="stitle">需要推荐</div>
+<div class="fr" style="padding:10px;background:#fff8e6;border-radius:8px;font-size:13px;color:#7c6a2f;line-height:1.7">
+已收到您的需求，我们的工程师将根据您填写的工况参数，为您推荐最合适的流量计类型及规格。
+</div>
+</div>
+
+<!-- 通用配置 -->
+<div class="card">
+<div class="stitle">通用配置</div>
+<div class="fr"><div class="fl">测量变量（可多选）</div>
+<div class="cg">
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="质量流量" hidden=""><span class="d"></span>质量流量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="密度" hidden=""><span class="d"></span>密度</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="温度" hidden=""><span class="d"></span>温度</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="流速" hidden=""><span class="d"></span>流速</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="体积流量" hidden=""><span class="d"></span>体积流量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="冷热量" hidden=""><span class="d"></span>冷热量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="过程压力" hidden=""><span class="d"></span>过程压力</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="过程温度" hidden=""><span class="d"></span>过程温度</label>
+</div></div>
+<div class="fr"><div class="fl">线缆长度</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="cable" value="标配5米线缆" hidden=""><span class="d"></span>标配5米线缆</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="cable" value="其他长度" hidden=""><span class="d"></span>其他<input class="pi" name="cable_v" placeholder="请填写（米）" onclick="event.stopPropagation()" autocomplete="off"></label>
+</div></div>
+<div class="fr"><div class="fl">输出方式</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="4~20mA+RS485" hidden=""><span class="d"></span>4~20mA+RS485</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="4~20mA+RS485+Hart" hidden=""><span class="d"></span>4~20mA+RS485+Hart</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="RS485" hidden=""><span class="d"></span>RS485</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="RS485+Hart" hidden=""><span class="d"></span>RS485+Hart</label>
+</div></div>
+<div class="fr"><div class="fl">供电电源</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="power" value="220V AC" hidden=""><span class="d"></span>220V AC</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="power" value="24V DC" hidden=""><span class="d"></span>24V DC</label>
+</div></div>
+</div>
+
+<button type="submit" class="btn">提交生成汇总图片</button>
+<div class="tips"><strong>💡 温馨提示：</strong><br>• 电磁流量计要求介质电导率≥5μs/cm<br>• 涡街流量计可配套温压补偿实现精确测量<br>• 涡轮流量计对介质粘度有要求，高粘度需实液标定<br>• 如需更多帮助，请在"流量计类型"中选择"不清楚请帮忙推荐"</div>
+</form>
+</div>
+
+<!-- 结果 -->
+<div id="ra" class="hd">
+<div class="smsg">✅ 提交成功！</div>
+<div class="rcard" id="rc"><img id="simg"></div>
+<a id="dl" class="dbtn" download="流量计需求汇总.png">📥 长按图片保存 / 点击下载</a>
+<button class="btn" style="background:#888;margin-top:8px" onclick="rf()">🔄 继续填写新单</button>
+</div>
+
+<script src="./index_files/html2canvas.min.js.下载"></script>
+<script>
+function tc(e){var i=e.querySelector('input');i.checked=!i.checked;e.classList.toggle('ck',i.checked)}
+function cr(e){e.parentElement.querySelectorAll('.ri').forEach(function(i){i.classList.remove('ck')});e.classList.add('ck');e.querySelector('input').checked=true}
+function tp(e,s){tc(e);var x=document.getElementById('s-'+s);if(x)x.classList.toggle('on',e.querySelector('input').checked)}
+function gv(n){var e=document.querySelector('[name="'+n+'"]');return e?e.value.trim():''}
+function gcv(n){return Array.from(document.querySelectorAll('[name="'+n+'"]:checked')).map(function(i){return i.value})}
+function grv(n){var c=document.querySelector('[name="'+n+'"]:checked');return c?c.value:''}
+function ts(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')}
+function rf(){document.getElementById('fa').classList.remove('hd');document.getElementById('ra').classList.add('hd');window.scrollTo(0,0)}
+
+// 获取带"其他"的radio值
+function grv2(n){
+var c=document.querySelector('[name="'+n+'"]:checked');
+if(!c)return'';
+var v=c.value;
+var pi=c.parentElement.querySelector('.pi');
+if(v==='其他'&&pi&&pi.value.trim())return'其他：'+pi.value.trim();
+if(v==='其他')return'其他';
+return v}
+
+document.getElementById('fm').addEventListener('submit',async function(e){
+e.preventDefault();
+var co=gv('company'),nm=gv('name'),ct=gv('contact');
+var mn=gv('mname'),mc=gv('mconc'),mt=gcv('mtrait');
+var dn=gv('dn'),et=gv('envtemp'),mdt=gv('medtemp'),pr=gv('pressure');
+var vn=gv('vmin'),vr=gv('vnorm'),vx=gv('vmax');
+var fn=gv('fmin'),fr=gv('fnorm'),fx=gv('fmax');
+var inst=grv('install'),pf=gv('pipe_front'),pb=gv('pipe_back');
+var fp=grv('fullpipe'),ex=grv2('explosion'),ip=grv2('ip');
+var ft=gcv('ftype');
+// 电磁
+var emc=grv('em_cond'),emm=grv2('em_mat'),eml=gcv('em_liner'),eme=grv('em_elec');
+// 涡街
+var vsm=grv('vs_med'),vsc=grv2('vs_conn'),vsco=grv('vs_comp');
+// 涡轮
+var tbv=grv('tb_visc'),tbc=grv('tb_conn');
+// 质量
+var cmt=grv('cm_type'),cmv=gcv('cm_var');
+// 超声波
+var uss=grv('us_sensor');
+// 通用
+var mv=gcv('meas_var'),cb=grv2('cable'),ot=grv('output'),pw=grv('power');
+
+var tags=function(arr,cls){return arr.length?arr.map(function(t){return'<span style="display:inline-block;background:'+cls.b+';color:'+cls.c+';padding:1px 8px;border-radius:10px;font-size:11px;margin:1px">'+t+'</span>'}).join(' '):'<span style="color:#ccc">未选择</span>'};
+var tagT=function(arr){return tags(arr,{b:'#fde8ec',c:'#C41E3A'})};
+var tagO=function(arr){return tags(arr,{b:'#fff3e0',c:'#e65100'})};
+
+function row(k,v){return'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0"><span style="color:#999;width:68px;flex-shrink:0">'+k+'</span><span style="color:#333;font-weight:500">'+(v||'未填写')+'</span></div>'}
+function sec(title){return'<div style="font-size:13px;color:#C41E3A;font-weight:600;margin-bottom:6px;border-left:3px solid #C41E3A;padding-left:8px">'+title+'</div>'}
+function subsec(label){return'<div style="font-size:12px;color:#C41E3A;font-weight:600;margin:6px 0 3px;padding-left:6px;border-left:2px solid #C41E3A">'+label+'</div>'}
+
+var h='<div style="text-align:center;background:linear-gradient(135deg,#C41E3A,#8B0000);border-radius:10px;padding:12px;margin-bottom:14px"><div style="font-size:17px;font-weight:bold;color:#fff">流量计需求汇总</div><div style="font-size:11px;color:rgba(255,255,255,.8);margin-top:3px">'+ts()+'</div></div>';
+
+// 基本信息
+h+='<div style="margin-bottom:12px">'+sec('基本信息')
++row('公司名称',co)+row('姓名',nm)+row('联系方式',ct)+'</div>';
+
+// 介质信息
+h+='<div style="margin-bottom:12px">'+sec('介质信息')
++row('介质名称',mn)+row('介质组成',mc)
++'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0;align-items:center"><span style="color:#999;width:68px;flex-shrink:0">是否符合</span><span style="color:#333;font-weight:500">'+tagO(mt)+'</span></div></div>';
+
+// 工况参数
+h+='<div style="margin-bottom:12px">'+sec('工况参数')
++row('公称口径',dn?'DN'+dn:'')
++row('环境温度',et?et+'℃':'')
++row('介质温度',mdt?mdt+'℃':'')
++row('公称压力',pr?pr+' MPa':'')+'</div>';
+
+// 流速与流量
+var vs=vn||vr||vx?'最小'+vn+' / 常用'+vr+' / 最大'+vx+' m/s':'';
+var fs=fn||fr||fx?'最小'+fn+' / 常用'+fr+' / 最大'+fx+' m³/h':'';
+h+='<div style="margin-bottom:12px">'+sec('流速与流量范围')
++row('流速范围',vs)+row('流量范围',fs)+'</div>';
+
+// 安装条件
+h+='<div style="margin-bottom:12px">'+sec('安装条件')
++row('安装位置',inst)
++row('直管段长度',(pf?'前'+pf+'D':'')+(pb?' 后'+pb+'D':''))
++row('是否满管',fp)
++row('防爆要求',ex)
++row('防护等级',ip)+'</div>';
+
+// 流量计类型
+h+='<div style="margin-bottom:12px">'+sec('流量计类型')
++'<div style="padding:4px 0;border-bottom:1px dashed #eee;font-size:12px">'+tagT(ft)+'</div></div>';
+
+// 电磁流量计详情
+if(ft.indexOf('电磁流量计')>-1){
+h+='<div style="margin-bottom:12px">'+sec('电磁流量计详细规格')
++subsec('电磁流量计')
++row('电导率',emc)+row('材质',emm)
++'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0;align-items:center"><span style="color:#999;width:68px;flex-shrink:0">衬里材料</span><span style="color:#333;font-weight:500">'+tagT(eml)+'</span></div>'
++row('电极材料',eme)+'</div>'}
+
+// 涡街流量计详情
+if(ft.indexOf('涡街流量计')>-1){
+h+='<div style="margin-bottom:12px">'+sec('涡街流量计详细规格')
++subsec('涡街流量计')
++row('介质',vsm)+row('连接方式',vsc)+row('补偿方式',vsco)+'</div>'}
+
+// 涡轮流量计详情
+if(ft.indexOf('涡轮流量计')>-1){
+h+='<div style="margin-bottom:12px">'+sec('涡轮流量计详细规格')
++subsec('涡轮流量计')
++row('介质粘度',tbv)+row('连接方式',tbc)+'</div>'}
+
+// 质量流量计详情
+if(ft.indexOf('质量流量计')>-1){
+h+='<div style="margin-bottom:12px">'+sec('质量流量计详细规格')
++subsec('质量流量计')
++row('类型',cmt)
++'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0;align-items:center"><span style="color:#999;width:68px;flex-shrink:0">测量变量</span><span style="color:#333;font-weight:500">'+tagT(cmv)+'</span></div></div>'}
+
+// 超声波流量计详情
+if(ft.indexOf('超声波流量计')>-1){
+h+='<div style="margin-bottom:12px">'+sec('超声波流量计详细规格')
++subsec('超声波流量计')
++row('传感器类型',uss)+'</div>'}
+
+// 通用配置
+h+='<div style="margin-bottom:12px">'+sec('通用配置')
++'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0;align-items:center"><span style="color:#999;width:68px;flex-shrink:0">测量变量</span><span style="color:#333;font-weight:500">'+tagT(mv)+'</span></div>'
++row('线缆长度',cb)
++row('输出方式',ot)
++row('供电电源',pw)+'</div>';
+
+h+='<div style="text-align:center;margin-top:14px;padding-top:10px;border-top:1px solid #eee;font-size:11px;color:#bbb">美仪 · Supmea 流量计需求收集表</div>';
+
+var c=document.createElement('div');
+c.style.cssText='position:fixed;left:-9999px;top:0;background:#fff;padding:20px;width:375px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif';
+c.innerHTML=h;
+document.body.appendChild(c);
+await new Promise(function(r){setTimeout(r,100)});
+try{var cv=await html2canvas(c,{scale:2,backgroundColor:'#fff',useCORS:true});var pu=cv.toDataURL('image/png');document.getElementById('simg').src=pu;document.getElementById('dl').href=pu;document.getElementById('fa').classList.add('hd');document.getElementById('ra').classList.remove('hd');window.scrollTo(0,0)}catch(err){alert('图片生成失败，请手动截图保存')}finally{document.body.removeChild(c)}
+});
+</script>
+
+
+</body></html>

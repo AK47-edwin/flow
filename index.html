@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0347)https://static.coze.site/7631021360634069286-data_volume/files/%E6%89%80%E6%9C%89%E5%AF%B9%E8%AF%9D/%E4%B8%BB%E5%AF%B9%E8%AF%9D/%E7%94%A8%E6%88%B7%E4%B8%8A%E4%BC%A0/%E6%B5%81%E9%87%8F%E8%AE%A1%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86%E8%A1%A8_form/index.html?sign=1785205912-55d447345a-0-7d8c5b4f4c8654de7a7da01bacc419bcb41bd43a4145ef30e157d37defc7e30a -->
+<!-- saved from url=(0242)https://static.coze.site/7631021360634069286-data_volume/files/%E6%89%80%E6%9C%89%E5%AF%B9%E8%AF%9D/%E4%B8%BB%E5%AF%B9%E8%AF%9D/forms/flowmeter.html?sign=1785217791-cc8e033234-0-5b6854c80193b5413dd2a961c0f16261be7d9cf0acfb585b22869da5734d3d63 -->
 <html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -54,7 +54,7 @@ body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;backgr
 .r3{display:flex;gap:4px;flex-wrap:wrap}
 .r3 .si{flex:1;min-width:80px}
 </style>
-</head>
+<script src="./流量计需求收集表_files/html2canvas.min.js.下载" async=""></script></head>
 <body>
 <div id="fa">
 <div class="header"><h1>流量计需求收集表</h1><p>请逐项填写，提交后自动生成汇总图片</p></div>
@@ -305,7 +305,27 @@ body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;backgr
 <button class="btn" style="background:#888;margin-top:8px" onclick="rf()">🔄 继续填写新单</button>
 </div>
 
-<script src="./index_files/html2canvas.min.js.下载"></script>
+<script>
+(function(){
+var urls=[
+'https://cdn.bootcdn.net/ajax/libs/html2canvas/1.4.1/html2canvas.min.js',
+'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js',
+'https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js',
+'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js'
+];
+var i=0;
+function tryLoad(){
+if(i>=urls.length){console.error('html2canvas load failed');return}
+var s=document.createElement('script');
+s.src=urls[i];
+s.async=true;
+s.onload=function(){console.log('html2canvas loaded from '+urls[i])};
+s.onerror=function(){i++;tryLoad()};
+document.head.appendChild(s);
+}
+tryLoad();
+})();
+</script>
 <script>
 function tc(e){var i=e.querySelector('input');i.checked=!i.checked;e.classList.toggle('ck',i.checked)}
 function cr(e){e.parentElement.querySelectorAll('.ri').forEach(function(i){i.classList.remove('ck')});e.classList.add('ck');e.querySelector('input').checked=true}
@@ -440,6 +460,11 @@ c.style.cssText='position:fixed;left:-9999px;top:0;background:#fff;padding:20px;
 c.innerHTML=h;
 document.body.appendChild(c);
 await new Promise(function(r){setTimeout(r,100)});
+if(typeof html2canvas==='undefined'){
+var waitCount=0;
+while(typeof html2canvas==='undefined'&&waitCount<40){await new Promise(function(r){setTimeout(r,500)});waitCount++}
+if(typeof html2canvas==='undefined'){alert('图片组件加载失败，请检查网络后刷新页面重试');document.body.removeChild(c);return}
+}
 try{var cv=await html2canvas(c,{scale:2,backgroundColor:'#fff',useCORS:true});var pu=cv.toDataURL('image/png');document.getElementById('simg').src=pu;document.getElementById('dl').href=pu;document.getElementById('fa').classList.add('hd');document.getElementById('ra').classList.remove('hd');window.scrollTo(0,0)}catch(err){alert('图片生成失败，请手动截图保存')}finally{document.body.removeChild(c)}
 });
 </script>

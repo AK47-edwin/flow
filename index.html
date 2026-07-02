@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0242)https://static.coze.site/7631021360634069286-data_volume/files/%E6%89%80%E6%9C%89%E5%AF%B9%E8%AF%9D/%E4%B8%BB%E5%AF%B9%E8%AF%9D/forms/flowmeter.html?sign=1785217791-cc8e033234-0-5b6854c80193b5413dd2a961c0f16261be7d9cf0acfb585b22869da5734d3d63 -->
+<!-- saved from url=(0347)https://static.coze.site/7631021360634069286-data_volume/files/%E6%89%80%E6%9C%89%E5%AF%B9%E8%AF%9D/%E4%B8%BB%E5%AF%B9%E8%AF%9D/%E7%94%A8%E6%88%B7%E4%B8%8A%E4%BC%A0/%E6%B5%81%E9%87%8F%E8%AE%A1%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86%E8%A1%A8_form/index.html?sign=1785463436-6b21f2eea0-0-03423be150f493b45482d337f682ab6b17230871de8d64bb4fd5a7d2195fc83a -->
 <html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -138,7 +138,37 @@ body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;backgr
 <label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="IP68" hidden=""><span class="d"></span>IP68</label>
 <label class="ri" onclick="cr(this)"><input type="radio" name="ip" value="其他" hidden=""><span class="d"></span>其他<input class="pi" name="ip_v" placeholder="请填写" onclick="event.stopPropagation()" autocomplete="off"></label>
 </div></div>
-</div>
+
+
+<!-- 通用配置 -->
+<div class="card">
+<div class="stitle">通用配置</div>
+<div class="fr"><div class="fl">测量变量（可多选）</div>
+<div class="cg">
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="质量流量" hidden=""><span class="d"></span>质量流量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="密度" hidden=""><span class="d"></span>密度</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="温度" hidden=""><span class="d"></span>温度</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="流速" hidden=""><span class="d"></span>流速</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="体积流量" hidden=""><span class="d"></span>体积流量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="冷热量" hidden=""><span class="d"></span>冷热量</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="过程压力" hidden=""><span class="d"></span>过程压力</label>
+<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="过程温度" hidden=""><span class="d"></span>过程温度</label>
+</div></div>
+<div class="fr"><div class="fl">线缆长度</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="cable" value="标配5米线缆" hidden=""><span class="d"></span>标配5米线缆</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="cable" value="其他长度" hidden=""><span class="d"></span>其他<input class="pi" name="cable_v" placeholder="请填写（米）" onclick="event.stopPropagation()" autocomplete="off"></label>
+</div></div>
+<div class="fr"><div class="fl">输出方式</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="4~20mA+RS485" hidden=""><span class="d"></span>4~20mA+RS485</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="4~20mA+RS485+Hart" hidden=""><span class="d"></span>4~20mA+RS485+Hart</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="RS485" hidden=""><span class="d"></span>RS485</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="RS485+Hart" hidden=""><span class="d"></span>RS485+Hart</label>
+</div></div>
+<div class="fr"><div class="fl">供电电源</div><div class="rg">
+<label class="ri" onclick="cr(this)"><input type="radio" name="power" value="220V AC" hidden=""><span class="d"></span>220V AC</label>
+<label class="ri" onclick="cr(this)"><input type="radio" name="power" value="24V DC" hidden=""><span class="d"></span>24V DC</label>
+</div></div>
+</div></div>
 
 <!-- 流量计类型选择 -->
 <div class="card">
@@ -262,36 +292,6 @@ body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;backgr
 </div>
 </div>
 
-<!-- 通用配置 -->
-<div class="card">
-<div class="stitle">通用配置</div>
-<div class="fr"><div class="fl">测量变量（可多选）</div>
-<div class="cg">
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="质量流量" hidden=""><span class="d"></span>质量流量</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="密度" hidden=""><span class="d"></span>密度</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="温度" hidden=""><span class="d"></span>温度</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="流速" hidden=""><span class="d"></span>流速</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="体积流量" hidden=""><span class="d"></span>体积流量</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="冷热量" hidden=""><span class="d"></span>冷热量</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="过程压力" hidden=""><span class="d"></span>过程压力</label>
-<label class="ci" onclick="tc(this)"><input type="checkbox" name="meas_var" value="过程温度" hidden=""><span class="d"></span>过程温度</label>
-</div></div>
-<div class="fr"><div class="fl">线缆长度</div><div class="rg">
-<label class="ri" onclick="cr(this)"><input type="radio" name="cable" value="标配5米线缆" hidden=""><span class="d"></span>标配5米线缆</label>
-<label class="ri" onclick="cr(this)"><input type="radio" name="cable" value="其他长度" hidden=""><span class="d"></span>其他<input class="pi" name="cable_v" placeholder="请填写（米）" onclick="event.stopPropagation()" autocomplete="off"></label>
-</div></div>
-<div class="fr"><div class="fl">输出方式</div><div class="rg">
-<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="4~20mA+RS485" hidden=""><span class="d"></span>4~20mA+RS485</label>
-<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="4~20mA+RS485+Hart" hidden=""><span class="d"></span>4~20mA+RS485+Hart</label>
-<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="RS485" hidden=""><span class="d"></span>RS485</label>
-<label class="ri" onclick="cr(this)"><input type="radio" name="output" value="RS485+Hart" hidden=""><span class="d"></span>RS485+Hart</label>
-</div></div>
-<div class="fr"><div class="fl">供电电源</div><div class="rg">
-<label class="ri" onclick="cr(this)"><input type="radio" name="power" value="220V AC" hidden=""><span class="d"></span>220V AC</label>
-<label class="ri" onclick="cr(this)"><input type="radio" name="power" value="24V DC" hidden=""><span class="d"></span>24V DC</label>
-</div></div>
-</div>
-
 <button type="submit" class="btn">提交生成汇总图片</button>
 <div class="tips"><strong>💡 温馨提示：</strong><br>• 电磁流量计要求介质电导率≥5μs/cm<br>• 涡街流量计可配套温压补偿实现精确测量<br>• 涡轮流量计对介质粘度有要求，高粘度需实液标定<br>• 如需更多帮助，请在"流量计类型"中选择"不清楚请帮忙推荐"</div>
 </form>
@@ -409,6 +409,13 @@ h+='<div style="margin-bottom:12px">'+sec('安装条件')
 +row('防爆要求',ex)
 +row('防护等级',ip)+'</div>';
 
+// 通用配置
+h+='<div style="margin-bottom:12px">'+sec('通用配置')
++'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0;align-items:center"><span style="color:#999;width:68px;flex-shrink:0">测量变量</span><span style="color:#333;font-weight:500">'+tagT(mv)+'</span></div>'
++row('线缆长度',cb)
++row('输出方式',ot)
++row('供电电源',pw)+'</div>';
+
 // 流量计类型
 h+='<div style="margin-bottom:12px">'+sec('流量计类型')
 +'<div style="padding:4px 0;border-bottom:1px dashed #eee;font-size:12px">'+tagT(ft)+'</div></div>';
@@ -446,12 +453,7 @@ h+='<div style="margin-bottom:12px">'+sec('超声波流量计详细规格')
 +subsec('超声波流量计')
 +row('传感器类型',uss)+'</div>'}
 
-// 通用配置
-h+='<div style="margin-bottom:12px">'+sec('通用配置')
-+'<div style="display:flex;padding:3px 0;font-size:11px;border-bottom:1px dashed #f0f0f0;align-items:center"><span style="color:#999;width:68px;flex-shrink:0">测量变量</span><span style="color:#333;font-weight:500">'+tagT(mv)+'</span></div>'
-+row('线缆长度',cb)
-+row('输出方式',ot)
-+row('供电电源',pw)+'</div>';
+
 
 h+='<div style="text-align:center;margin-top:14px;padding-top:10px;border-top:1px solid #eee;font-size:11px;color:#bbb">美仪 · Supmea 流量计需求收集表</div>';
 
